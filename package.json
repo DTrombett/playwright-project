@@ -1,0 +1,44 @@
+{
+	"name": "playwright-test",
+	"version": "0.0.1",
+	"description": "A template for any project using playwright with TypeScript, Eslint, Prettier and git",
+	"exports": "./dist/index.js",
+	"main": "./dist/index.js",
+	"scripts": {
+		"build": "tsup",
+		"lint": "eslint src --fix",
+		"prepare": "npm test",
+		"prettier": "prettier --write src/**/*.ts",
+		"start": "npm run build && node --trace-warnings --enable-source-maps .",
+		"test": "eslint src && tsc --noEmit"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DTrombett/playwright.git"
+	},
+	"author": "DTrombett",
+	"license": "MIT",
+	"type": "module",
+	"engines": {
+		"node": ">=18"
+	},
+	"bugs": {
+		"url": "https://github.com/DTrombett/playwright/issues"
+	},
+	"homepage": "https://github.com/DTrombett/playwright#readme",
+	"dependencies": {
+		"playwright": "^1.31.2"
+	},
+	"devDependencies": {
+		"@tsconfig/node18": "^1.0.1",
+		"@types/node": "^18.14.6",
+		"@typescript-eslint/eslint-plugin": "^5.54.1",
+		"@typescript-eslint/parser": "^5.54.1",
+		"dotenv": "^16.0.3",
+		"eslint": "^8.35.0",
+		"eslint-plugin-node": "^11.1.0",
+		"prettier": "^2.8.4",
+		"tsup": "^6.6.3",
+		"typescript": "^4.9.5"
+	}
+}
