@@ -14,7 +14,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/DTrombett/playwright.git"
+		"url": "git+https://github.com/DTrombett/playwrigh-projectt.git"
 	},
 	"author": "DTrombett",
 	"license": "MIT",
@@ -23,9 +23,9 @@
 		"node": ">=18"
 	},
 	"bugs": {
-		"url": "https://github.com/DTrombett/playwright/issues"
+		"url": "https://github.com/DTrombett/playwright-project/issues"
 	},
-	"homepage": "https://github.com/DTrombett/playwright#readme",
+	"homepage": "https://github.com/DTrombett/playwright-project#readme",
 	"dependencies": {
 		"playwright": "^1.31.2"
 	},
